@@ -1,0 +1,117 @@
+*{
+	margin:0;
+	padding:0;
+}
+html,body{
+	width:100%;
+	height:100%;
+	background:#000;
+}
+#box{
+	width: 300px;
+	height: 500px;
+	border: 10px solid #fff;
+	margin: 0px auto;
+	position: relative;
+	overflow: hidden;
+	top: 50px;
+}
+#box h3{
+	color: #fff;
+	font-size: 24px;
+	margin: 70px auto 50px;
+	text-align: center;
+}
+
+#box p.ac{
+	width: 150px;
+	height: 40px;
+	font-size:14px;
+	line-height: 40px;
+	text-align: center;
+	margin: 70px auto;
+	cursor: pointer;
+	background: #fff;
+	font-weight: 600;
+}
+#box  p.on{
+	background: #333;
+	color:#fff;
+	width: 150px;
+	height: 40px;
+	font-size:14px;
+	line-height: 40px;
+	text-align: center;
+	margin: 70px auto;
+	cursor: pointer;
+	font-weight: 600;
+}
+#box .plane{
+	position:absolute;
+	width:60px;
+	height:36px;
+}
+
+#box .plane{
+	position: absolute;
+}
+#box .bullet{
+	position: absolute;
+	width: 6px;
+	height: 22px;
+}
+#box .enemy{
+	position: absolute;
+	width: 23px;
+	height: 30px;
+	top:0px;
+	left:0px;
+}
+#box .over{
+	width: 200px;
+	height: 340px;
+	margin:82px auto;
+}
+#box .score{
+	position: absolute;
+	left: 10px;
+	top:10px;
+	font-size: 14px;
+	color:#DD4E42;
+	font-weight: 600;
+}
+#box .op1{
+	color:#F9263E;
+	font-size:25px;
+	padding-top:30px;
+	font-weight: 600;
+	text-align: center;
+}
+#box .oSpan{
+	color:#B0E24A;
+	font-size:14px;
+	text-align: center;
+	margin-top:30px;
+}
+#box .rate {
+	height: 40px;
+	color:green;
+	font-size:16px;
+	text-align: center;
+	margin-top:30px;
+}
+#box .reStart{
+	width: 120px;
+	height:40px;
+	background:#0170BC;
+	line-height: 40px;
+	text-align: center;
+	color:#fff;
+	font-weight: 600;
+	margin:80px auto;
+}
+#reStart:hover{
+	background: #F7C704;
+	color:#333;
+	cursor: pointer;
+}
